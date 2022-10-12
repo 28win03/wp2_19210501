@@ -16,7 +16,7 @@ class web extends CI_Controller{
 	}
 	public function about()
 	{
-		$data['judul'] = "Halaman About";
+		 $data['judul'] = "Halaman About";
 		 $this->load->view('web_template/v_header',$data);
 		 $this->load->view('web_template/v_about',$data);
 		 $this->load->view('web_template/v_footer',$data);
